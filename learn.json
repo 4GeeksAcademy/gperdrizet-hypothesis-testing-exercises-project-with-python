@@ -14,5 +14,7 @@
 	"description": {
 		"us": "Use your NumPy, Pandas and Matplotlib skills to practice a little about hypothesis testing with Annova and others",
 		"es": "Usa tus habilidades con NumPy, Pandas y Matplotlib para practicar un poco sobre pruebas de hipótesis con ANOVA y otros métodos."
-	}
+	},
+	"gitpod": true,
+	"template_url": "self"
 }
