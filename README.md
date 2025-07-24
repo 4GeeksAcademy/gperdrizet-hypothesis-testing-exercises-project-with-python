@@ -1,37 +1,132 @@
-<!--hide-->
-# Hypothesis testing in Python - Step by step guide
-<!--endhide-->
+# Hypothesis Testing Exercises - Python Project
 
-- Complete the problems using hypothesis testing and Python.
+![Project Preview](assets/preview.jpeg)
 
-## 🌱 How to start this project.
+This repository contains reference solutions for hypothesis testing exercises designed for data science bootcamp students. The project includes practical statistical analysis problems using Python, focusing on hypothesis testing concepts and implementation.
 
-Follow the instructions below:
+## Project Overview
 
-1. Create a new repository by forking the [Git project](https://github.com/4GeeksAcademy/hypothesis-testing-exercises-project-with-python) or [by clicking here](https://github.com/4GeeksAcademy/hypothesis-testing-exercises-project-with-python/fork).
-2. Open the newly created repository in Codespace using the [Codespace button extension](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository).
-3. Once the Codespace VSCode has finished opening, start your project by following the instructions below.
+This educational project provides hands-on experience with:
+- **Hypothesis Testing**: Null and alternative hypothesis formulation
+- **Statistical Tests**: Student's t-tests and other statistical methods
+- **Data Analysis**: Weight loss diet comparison and other real-world scenarios
+- **Python Libraries**: scipy, matplotlib for statistical computing and visualization
 
-## 📝 Instructions
+## Using this Repository
 
-1. Once you start working on the project, you will see a `./notebook/problems.ipynb` file containing a list of exercises.
+### Method 1: GitHub Codespaces (Recommended)
 
-2. Before starting, make sure to select the **appropriate Kernel**.
+**Prerequisites:**
+- A GitHub account
+- Basic knowledge of Python and statistics
 
-    - When you open the notebook, a message will appear at the top indicating **"Select Kernel"**.
-    - Click on **"Select Kernel"** (as shown in the image).
+**Step 1: Fork the Repository**
+1. Navigate to this repository on GitHub
+2. Click the **"Fork"** button in the top-right corner
+3. Select your GitHub account as the destination for the fork
 
-![image-kernel](https://github.com/4GeeksAcademy/probability-exercises-project-in-python/blob/main/assets/image-kernel.png?raw=true)
+**Step 2: Launch GitHub Codespace**
+1. In your forked repository, click the green **"Code"** button
+2. Select the **"Codespaces"** tab
+3. Click **"Create codespace on main"**
+4. Wait for the environment to set up (this may take a few minutes)
 
-3. A list with available options will be displayed. Select **"Python Environments"** and choose the Python version you want to use.
+**Step 3: Open the Notebook**
+1. Once the Codespace is ready, navigate to the file explorer
+2. Open `problems.ipynb` to start working with the exercises
+3. The environment will automatically install all required dependencies
 
-    - Make sure to select the version specified in the `devcontainer.json` file, as this is the recommended one for the project.
+### Method 2: Running Locally
 
-![image-devcontainer](https://github.com/4GeeksAcademy/probability-exercises-project-in-python/blob/main/assets/devcontainer-image.png?raw=true)
+If you prefer to run the project locally instead of using Codespaces:
 
-> Note: We also incorporated a `./notebook/solutions.ipynb` file that we strongly suggest you only use if you are stuck for more than 30 min or if you have already finished and want to compare it with your approach.
+**Prerequisites:**
+- Python 3.11 or higher
+- pip package manager
+- virtualenv module (install with `pip install virtualenv` if not available)
+- VS Code or Jupyter Notebook installed
 
-## 🚛 How to deliver this project
+**Installation Steps:**
+1. Clone your forked repository:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/gperdrizet-hypothesis-testing-exercises-project-with-python.git
+   cd gperdrizet-hypothesis-testing-exercises-project-with-python
+   ```
 
-Once you have finished solving the exercises, be sure to commit your changes, `push` to your repository and go to 4Geeks.com to upload the repository link.
+2. Create and activate a virtual environment:
+   ```bash
+   # Create virtual environment
+   python -m venv hypothesis-testing-env
+   
+   # Activate virtual environment
+   # On Linux/macOS:
+   source hypothesis-testing-env/bin/activate
 
+   # On Windows:
+   # hypothesis-testing-env\Scripts\activate
+   ```
+
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Open the notebook in Jupyter or VS Code:
+
+   - If using Jupyter Notebook, run:
+     ```bash
+     jupyter notebook problems.ipynb
+     ```
+   - If using VS Code, open the folder in VS Code and use the Jupyter extension to open the notebook.
+
+5. When finished, deactivate the virtual environment:
+   ```bash
+   deactivate
+   ```
+
+## Repository Structure
+
+```
+├── .devcontainer/
+│   └── devcontainer.json      # Development container configuration
+├── assets/
+│   └── preview.jpeg           # Project preview image
+├── problems.ipynb             # Main notebook with exercises and solutions
+├── requirements.txt           # Python dependencies
+└── README.md                  # This file
+```
+
+## Dependencies
+
+The project uses the following Python packages (automatically installed in Codespaces):
+
+- **ipykernel**: Jupyter kernel for Python
+- **matplotlib**: Data visualization library
+- **scipy**: Scientific computing library for statistical functions
+
+## Exercise Content
+
+The notebook includes:
+
+### Exercise 1: Diet Comparison Study
+- **Scenario**: Comparing weight loss between two different diet groups
+- **Statistical Method**: Student's t-test
+- **Learning Objectives**: 
+  - Formulating null and alternative hypotheses
+  - Performing statistical tests
+  - Interpreting results and drawing conclusions
+
+Additional exercises may cover various hypothesis testing scenarios relevant to data science applications.
+
+## Learning Objectives
+
+By completing these exercises, students will:
+- Understand the fundamental concepts of hypothesis testing
+- Learn to formulate appropriate null and alternative hypotheses
+- Gain hands-on experience with statistical tests in Python
+- Develop skills in interpreting statistical results
+- Practice data analysis using real-world scenarios
+
+**Happy Learning!** 📊🐍
+
+*This repository serves as a reference solution for educational purposes. Students are encouraged to work through the problems independently before consulting the solutions.*
