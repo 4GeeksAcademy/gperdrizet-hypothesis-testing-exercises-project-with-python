@@ -87,13 +87,16 @@ If you prefer to run the project locally instead of using Codespaces:
 ## Repository Structure
 
 ```
-├── .devcontainer/
-│   └── devcontainer.json      # Development container configuration
-├── assets/
-│   └── preview.jpeg           # Project preview image
-├── problems.ipynb             # Main notebook with exercises and solutions
-├── requirements.txt           # Python dependencies
-└── README.md                  # This file
+├── .devcontainer/        # Development container configuration
+├── assets/               # Files and resources directory
+│
+├── notebooks/            # Jupyter notebook directory
+│   ├── assignment.ipynb  # Assignment notebook
+│   └── solution.ipynb    # Solution notebook
+│
+├── .gitignore            # Files/directories not tracked by git
+├── requirements.txt      # Python dependencies
+└── README.md             # Project documentation
 ```
 
 ## Dependencies
