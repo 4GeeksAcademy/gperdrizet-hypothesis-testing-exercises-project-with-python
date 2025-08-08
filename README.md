@@ -1,8 +1,10 @@
 # Hypothesis Testing Exercises - Python Project
 
-![Project Preview](assets/preview.jpeg)
-
 This repository contains reference solutions for hypothesis testing exercises designed for data science bootcamp students. The project includes practical statistical analysis problems using Python, focusing on hypothesis testing concepts and implementation.
+
+[![Codespaces Prebuilds](https://github.com/4GeeksAcademy/gperdrizet-hypothesis-testing-exercises-project-with-python/actions/workflows/codespaces/create_codespaces_prebuilds/badge.svg)](https://github.com/4GeeksAcademy/gperdrizet-hypothesis-testing-exercises-project-with-python/actions/workflows/codespaces/create_codespaces_prebuilds)
+
+![Project Preview](assets/preview.jpeg)
 
 ## Project Overview
 
