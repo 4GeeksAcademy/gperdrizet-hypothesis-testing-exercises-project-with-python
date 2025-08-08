@@ -7,7 +7,9 @@
 	"customizations": {
 	  "vscode": {
 		"settings": {
-			"jupyter.kernels.excludePythonEnvironments": ["/usr/bin/python3"]
+			"jupyter.kernels.excludePythonEnvironments": ["/usr/bin/python3"],
+			"remote.autoForwardPorts": false,
+			"remote.restoreForwardedPorts": false
 		},
 		"extensions": [
 		  "-dbaeumer.vscode-eslint",
@@ -17,6 +19,5 @@
 		]
 	  }
 	},
-
 	"postAttachCommand": "htop"
 }
